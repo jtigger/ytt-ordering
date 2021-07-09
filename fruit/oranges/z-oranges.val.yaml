@@ -1,0 +1,9 @@
+#@data/values
+---
+carts:
+  orange:
+  - z-oranges.val.yaml
+
+salad:
+- z-oranges.val.yaml
+

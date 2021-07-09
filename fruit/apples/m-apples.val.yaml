@@ -1,0 +1,9 @@
+#@data/values
+---
+carts:
+  apple:
+  - m-apples.val.yaml
+
+salad:
+- m-apples.val.yaml
+

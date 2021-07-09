@@ -1,0 +1,4 @@
+#@ load("@ytt:data", "data")
+---
+file: oranges/navel.tpl.yaml
+salad: #@ data.values.salad

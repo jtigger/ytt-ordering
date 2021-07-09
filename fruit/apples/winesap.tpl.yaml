@@ -1,0 +1,6 @@
+#@ load("@ytt:data", "data")
+---
+file: apples/winesap.tpl.yaml
+salad: #@ data.values.salad
+
+
