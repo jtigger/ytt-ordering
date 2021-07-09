@@ -3,6 +3,7 @@
 set -x
 
 ytt \
+  -f fruit/_version-check.star \
   -f fruit/a.overlay.yaml \
   -f fruit/a.val.yaml \
   -f fruit/m.overlay.yaml \
@@ -15,6 +16,7 @@ ytt \
 
   
 ytt \
+  -f fruit/_version-check.star \
   -f fruit/a.overlay.yaml \
   -f fruit/a.val.yaml \
   -f fruit/m.overlay.yaml \
@@ -26,6 +28,7 @@ ytt \
   --data-values-inspect
   
 ytt \
+  -f fruit/_version-check.star \
   -f fruit/a.overlay.yaml \
   -f fruit/a.val.yaml \
   -f fruit/m.overlay.yaml \
